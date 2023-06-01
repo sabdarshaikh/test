@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --menu-semi-bold-14: Inter;
+  --headline-h4-medium-32: Poppins;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --menu-semi-bold-14-size: 14px;
+  --chip-size: 10px;
+  --headline-h4-medium-32-size: 32px;
+
+  /* Colors */
+  --white: #fff;
+  --color-gray-100: #fefefe;
+  --for-input-boxes: #242731;
+  --color-dark-background: #1b1d21;
+  --state-dark-active: #191b20;
+  --color-gray-200: rgba(25, 27, 32, 0.8);
+  --color-dimgray-100: #6e6e6e;
+  --text-colour: #808191;
+  --selected-grey: #353945;
+  --bg: #000;
+  --buffer-blue: #3772ff;
+  --light-blue: #a3e3ff;
+  --meaning-success: #4fbf67;
+  --color-primary-cta: #355dff;
+  --accent-accent-01: #6c5dd3;
+
+  /* Gaps */
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-9xs: 4px;
+  --padding-mini-6: 14.6px;
+  --padding-3xs: 10px;
+  --padding-10xs: 3px;
+
+  /* border radiuses */
+  --br-base: 16px;
+  --br-xs: 12px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-12xs: 1px;
+}
